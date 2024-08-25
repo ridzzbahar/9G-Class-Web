@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kelas 9-G</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: #f0f4f8;
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #004d99, #003366);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 10px 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: rgba(0, 0, 0, 0.5) url('https://via.placeholder.com/1600x600?text=Kelas+9-G') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            background-blur: 10px;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .button-primary {
+            background: #007bff;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+        .button-primary:hover {
+            background: #0056b3;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 5px;
+            width: 50px;
+            background: #007bff;
+        }
+        .gallery-item {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        .teacher, .student {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .teacher img, .student img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+            border: 2px solid #007bff;
+        }
+        .teacher-info, .student-info {
+            max-width: 500px;
+        }
+        .student-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .student-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+            width: calc(25% - 20px);
+            transition: transform 0.3s ease;
+        }
+        .student-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+            border: 2px solid #007bff;
+        }
+        .student-card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Kelas 9-G</h1>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang Kelas</a>
+            <a href="#gallery">Galeri Kelas</a>
+            <a href="#teachers">Identitas Guru</a>
+            <a href="#students">Identitas Siswa</a>
+        </nav>
+    </header>
+    <div class="hero" id="home">
+        <h2>Selamat Datang di Kelas 9-G</h2>
+        <p>Temukan semua informasi tentang kelas kami di sini!</p>
+        <a href="#about" class="button-primary">Pelajari Lebih Lanjut</a>
+    </div>
+    <div class="container">
+        <section id="about">
+            <h2>Tentang Kelas 9-G</h2>
+            <p>Kelas 9-G adalah bagian dari program pendidikan kami yang bertujuan untuk memberikan pengalaman belajar yang mendalam dan menyenangkan. Kami memiliki berbagai aktivitas dan materi pembelajaran yang dirancang untuk membantu siswa mencapai potensi maksimal mereka.</p>
+            <img src="https://via.placeholder.com/800x400?text=Tentang+Kelas+9-G" alt="Tentang Kelas 9-G">
+        </section>
+        <section id="gallery">
+            <h2>Galeri Kelas</h2>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/800x400?text=Gambar+1" alt="Galeri 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/800x400?text=Gambar+2" alt="Galeri 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/800x400?text=Gambar+3" alt="Galeri 3">
+            </div>
+        </section>
+        <section id="teachers">
+            <h2>Identitas Guru</h2>
+            <div class="teacher">
+                <img src="image/WhatsApp Image 2024-08-25 at 13.48.31_18186d28.jpg" alt="Guru">
+                <div class="teacher-info">
+                    <h3>Hj.Yeti Irawatie, S.Pd</h3>
+                    <p>Guru Matematika. Dengan pengalaman lebih dari 10 tahun mengajar, Guru berkomitmen untuk membantu siswa menguasai matematika dengan cara yang menyenangkan dan efektif.</p>
+                </div>
+            </div>
+        </section>
+        <section id="students">
+            <h2>Identitas Siswa</h2>
+            <div class="student-list">
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 1">
+                    <p>Nama Siswa 1</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 2">
+                    <p>Nama Siswa 2</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 3">
+                    <p>Nama Siswa 3</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 4">
+                    <p>Nama Siswa 4</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 5">
+                    <p>Nama Siswa 5</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 6">
+                    <p>Nama Siswa 6</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 7">
+                    <p>Nama Siswa 7</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 8">
+                    <p>Nama Siswa 8</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 9">
+                    <p>Nama Siswa 9</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 10">
+                    <p>Nama Siswa 10</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 11">
+                    <p>Nama Siswa 11</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 12">
+                    <p>Nama Siswa 12</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 13">
+                    <p>Nama Siswa 13</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 14">
+                    <p>Nama Siswa 14</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 15">
+                    <p>Nama Siswa 15</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 16">
+                    <p>Nama Siswa 16</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 17">
+                    <p>Nama Siswa 17</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 18">
+                    <p>Nama Siswa 18</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 19">
+                    <p>Nama Siswa 19</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 20">
+                    <p>Nama Siswa 20</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 21">
+                    <p>Nama Siswa 21</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 22">
+                    <p>Nama Siswa 22</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 23">
+                    <p>Nama Siswa 23</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 24">
+                    <p>Nama Siswa 24</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 25">
+                    <p>Nama Siswa 25</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 26">
+                    <p>Nama Siswa 26</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 27">
+                    <p>Nama Siswa 27</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 28">
+                    <p>Nama Siswa 28</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 29">
+                    <p>Nama Siswa 29</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 30">
+                    <p>Nama Siswa 30</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 31">
+                    <p>Nama Siswa 31</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 32">
+                    <p>Nama Siswa 32</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 33">
+                    <p>Nama Siswa 33</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 34">
+                    <p>Nama Siswa 34</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 35">
+                    <p>Nama Siswa 35</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://via.placeholder.com/80x80?text=Siswa" alt="Siswa 36">
+                    <p>Nama Siswa 36</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kelas 9-G. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
