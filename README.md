@@ -245,7 +245,7 @@
     <div class="container">
         <section id="about">
             <h2>9G CLASS</h2>
-            <img src="image/newwww.webp" alt="Tentang Kelas 9-G">
+            <img src="image 3/newwww.webp" alt="Tentang Kelas 9-G">
         </section>
         <section id="gallery">
             <h2>Galeri Kelas</h2>
@@ -269,7 +269,7 @@
         <section id="teachers">
             <h2>Wali Kelas</h2>
             <div class="teacher">
-                <img src="image/DSC_0594.JPG" alt="Foto Guru">
+                <img src="image 2/DSC_0594.JPG" alt="Foto Guru">
                 <div class="teacher-info">
                     <h3>Hj.Yeti Irawatie, S.Pd</h3>
                     <p>Wali Kelas</p>
@@ -281,59 +281,59 @@
             <h2>Identitas Siswa</h2>
             <div class="student-list">
                 <div class="student-card">
-                    <img src="image/ANGGI REFLI (1).JPG" alt="Siswa 1">
+                    <img src="image 2/ANGGI REFLI (1).JPG" alt="Siswa 1">
                     <p>Anggi Refli A</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ARI HADI (1).JPG" alt="Siswa 2">
+                    <img src="image 2/ARI HADI (1).JPG" alt="Siswa 2">
                     <p>Ari Hadi W</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ARISSA FARRAS (1).JPG" alt="Siswa 1">
+                    <img src="image 2/ARISSA FARRAS (1).JPG" alt="Siswa 1">
                     <p>Arissa Farras E</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ARSISYA (1).JPG" alt="Siswa 1">
+                    <img src="image 2/ARSISYA (1).JPG" alt="Siswa 1">
                     <p>Arsisya Fardila P</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ASMIRA PUANDINI (1).JPG" alt="Siswa 1">
+                    <img src="image 2/ASMIRA PUANDINI (1).JPG" alt="Siswa 1">
                     <p>Asmira Puandini</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/AUDYA RACHMA (1).JPG" alt="Siswa 1">
+                    <img src="image 2/AUDYA RACHMA (1).JPG" alt="Siswa 1">
                     <p>Audya Rachma R</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/AURA ANNASTASYA (1).JPG" alt="Siswa 1">
+                    <img src="image 2/AURA ANNASTASYA (1).JPG" alt="Siswa 1">
                     <p>Aura Annastasya K</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/BIAN QANITAH (1).JPG" alt="Siswa 1">
+                    <img src="image 2/BIAN QANITAH (1).JPG" alt="Siswa 1">
                     <p>Bian Qonitah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/BILQIS (1).JPG" alt="Siswa 1">
+                    <img src="image 2/BILQIS (1).JPG" alt="Siswa 1">
                     <p>Bilqis Azizatushalihah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/DAVA BINTANG (1).JPG" alt="Siswa 1">
+                    <img src="image 2/DAVA BINTANG (1).JPG" alt="Siswa 1">
                     <p>Dava Bintang A</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/DESTIYA SARAH (1).JPG" alt="Siswa 1">
+                    <img src="image 2/DESTIYA SARAH (1).JPG" alt="Siswa 1">
                     <p>Destiya Sarah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ELLA NUR (1).JPG" alt="Siswa 1">
+                    <img src="image 2/ELLA NUR (1).JPG" alt="Siswa 1">
                     <p>Ella Nurhandayani</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ELSA ARYANI (1).JPG" alt="Siswa 1">
+                    <img src="image 2/ELSA ARYANI (1).JPG" alt="Siswa 1">
                     <p>Elsa Aryani</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/FARID BAHAR (1).JPG" alt="Siswa 1">
+                    <img src="image 2/FARID BAHAR (1).JPG" alt="Siswa 1">
                     <a href="https://9-g2023.github.io/Profil-Farid-Bahar-M/" target="_blank"><p>Farid Bahar M</p></a>
                 </div>
                 <div class="student-card">
@@ -377,51 +377,51 @@
                     <p>Nadia Amandar</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/NURUL WAHIDAH (1).JPG" alt="Siswa 1">
+                    <img src="image 3/NURUL WAHIDAH (1).JPG" alt="Siswa 1">
                     <p>Nurul Wahidah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/PARISKA ZAHRA (1).JPG" alt="Siswa 1">
+                    <img src="image 3/PARISKA ZAHRA (1).JPG" alt="Siswa 1">
                     <p>Pariska Zahra</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/RAFA KURNIA (1).JPG" alt="Siswa 1">
+                    <img src="image 3/RAFA KURNIA (1).JPG" alt="Siswa 1">
                     <p>Rafa Kurnia F</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/RAFA OKTAVIAN (1).JPG" alt="Siswa 1">
+                    <img src="image 3/RAFA OKTAVIAN (1).JPG" alt="Siswa 1">
                     <p>Rafa Oktavian F</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/RAMMY (1).JPG" alt="Siswa 1">
+                    <img src="image 3/RAMMY (1).JPG" alt="Siswa 1">
                     <p>Rammy Munira El-Esami R</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/riyadhi.jpg" alt="Siswa 1">
+                    <img src="image 3/riyadhi.jpg" alt="Siswa 1">
                     <p>Riyadhi Akbar</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/RIVAL (1).JPG" alt="Siswa 1">
+                    <img src="image 3/RIVAL (1).JPG" alt="Siswa 1">
                     <p>Rival Agatha R</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/SARAH NUR AZIZAH (1).JPG" alt="Siswa 1">
+                    <img src="image 3/SARAH NUR AZIZAH (1).JPG" alt="Siswa 1">
                     <p>Sarah Nur Azizah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/SAZKIA NOUREEN (1).JPG" alt="Siswa 1">
+                    <img src="image 3/SAZKIA NOUREEN (1).JPG" alt="Siswa 1">
                     <p>Sazkia Noureen A</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/SUCI RAMADHANI (1).JPG" alt="Siswa 1">
+                    <img src="image 3/SUCI RAMADHANI (1).JPG" alt="Siswa 1">
                     <p>Suci Ramadhani</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/SYALOM (1).JPG" alt="Siswa 1">
+                    <img src="image 3/SYALOM (1).JPG" alt="Siswa 1">
                     <p>Syallom Yadrastirani A D</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ZHROTUL AINI (1).JPG" alt="Siswa 1">
+                    <img src="image 3/ZHROTUL AINI (1).JPG" alt="Siswa 1">
                     <p>Zahrotul Aini</p>
                 </div>
             </div>
