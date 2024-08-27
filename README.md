@@ -235,6 +235,7 @@
             <a href="#students">Siswa-Siswi</a>
             <a href="https://www.instagram.com/sembilanntuujuh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram icon-red"></i></a>
             <a href="https://www.tiktok.com/@sembilanntuujuh_?is_from_webapp=1&sender_device=pc" target="_blank"><i class="bi bi-tiktok icon-black"></i></a>
+            <a href="https://open.spotify.com/playlist/4zBEPzrNforOcXyWAAsvZ2?si=jPCwvRYaTbGZwspDpSQAOw&nd=1&dlsi=b516cbb82901445d" target="_blank"><i class="bi bi-spotify"></i></a>
         </nav>
     </header>
     <div class="hero" id="home">
