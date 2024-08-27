@@ -1,9 +1,9 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9-G CLASS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         /* Reset default styles */
         body, h1, h2, h3, p {
@@ -50,7 +50,7 @@
             color: #ffddc1;
         }
         .hero {
-            background: rgba(0, 0, 0, 0.5) url('https://via.placeholder.com/1600x600?text=Kelas+9-G') no-repeat center center/cover;
+            background: rgba(0, 0, 0, 0.5)
             color: #fff;
             text-align: center;
             padding: 100px 20px;
@@ -188,7 +188,7 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
             padding: 10px;
             text-align: center;
-            width: calc(25% - 20px);
+            width: calc(25% - 25px);
             transition: transform 0.3s ease;
         }
         .student-card img {
@@ -214,6 +214,14 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
+        .icon-green{
+            font-size: 24px;
+            color: greenyellow;
+        }
+        .icon-red{
+            font-size: 24px;
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -221,23 +229,22 @@
         <h1>9-G CLASS</h1>
         <nav>
             <a href="#home">Beranda</a>
-            <a href="#about">Tentang Kelas</a>
-            <a href="#gallery">Galeri Kelas</a>
+            <a href="https://9-g2023.github.io/Gallery-9G/" target="_blank">Full Gallery</a>
+            <a href="#gallery">Gallery</a>
             <a href="#teachers">Wali Kelas</a>
             <a href="#students">Siswa-Siswi</a>
-            <a href="https://www.instagram.com/sembilanntuujuh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><b>Instagram</b></a>
-            <a href="https://www.tiktok.com/@sembilanntuujuh_?is_from_webapp=1&sender_device=pc" target="_blank"><b>TikTok</b></a>
+            <a href="https://www.instagram.com/sembilanntuujuh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram icon-red"></i></a>
+            <a href="https://www.tiktok.com/@sembilanntuujuh_?is_from_webapp=1&sender_device=pc" target="_blank"><i class="bi bi-tiktok icon-black"></i></a>
         </nav>
     </header>
     <div class="hero" id="home">
-        <h2>Selamat Datang di Kelas 9-G</h2>
+        <h2>WELCOME TO 9-G CLASS</h2>
         <p>9-G CLASS Tahun Ajaran 2023-2024</p>
         <a href="#about" class="button-primary">Pelajari Lebih Lanjut</a>
     </div> 
     <div class="container">
         <section id="about">
-            <h2>Tentang Kelas 9-G</h2>
-            <p>Kelas 9-G adalah bagian dari program pendidikan kami yang bertujuan untuk memberikan pengalaman belajar yang mendalam dan menyenangkan. Kami memiliki berbagai aktivitas dan materi pembelajaran yang dirancang untuk membantu siswa mencapai potensi maksimal mereka.</p>
+            <h2>9G CLASS</h2>
             <img src="image/newwww.webp" alt="Tentang Kelas 9-G">
         </section>
         <section id="gallery">
@@ -245,7 +252,7 @@
             <div class="carousel-container">
                 <div class="carousel-images">
                     <img src="image/448207003_7643637229052243_5760121963997977542_n.webp" alt="Galeri 1">
-                    <img src="image/Selamat hari guru ibu Yeti. Kami ingin mengucapkan terimakasih yang sebesar-besarnya untuk ibu yang sudah menjadi wali kelas kami. Terimakasih sudah mau mendidik dan membimbing kami menjadi lebih baik. Semoga ibu s.webp" alt="Galeri 2">
+                    <img src="image/aja.webp" alt="Galeri 2">
                     <img src="image/366146358_255700773987015_2705461868856523935_n.webp" alt="Galeri 3">
                     <img src="image/IMG-20240825-WA0018.jpg" alt="Galeri 4">
                     <img src="image/IMG-20240825-WA0019.jpg" alt="Galeri 5">
@@ -262,7 +269,7 @@
         <section id="teachers">
             <h2>Wali Kelas</h2>
             <div class="teacher">
-                <img src="image/WhatsApp Image 2024-08-25 at 13.48.31_9c8c049b.jpg" alt="Foto Guru">
+                <img src="image/DSC_0594.JPG" alt="Foto Guru">
                 <div class="teacher-info">
                     <h3>Hj.Yeti Irawatie, S.Pd</h3>
                     <p>Wali Kelas</p>
@@ -274,119 +281,119 @@
             <h2>Identitas Siswa</h2>
             <div class="student-list">
                 <div class="student-card">
-                    <img src="image/anggi.jpg" alt="Siswa 1">
+                    <img src="image/ANGGI REFLI (1).JPG" alt="Siswa 1">
                     <p>Anggi Refli A</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ari.jpg" alt="Siswa 2">
+                    <img src="image/ARI HADI (1).JPG" alt="Siswa 2">
                     <p>Ari Hadi W</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/arissa.jpg" alt="Siswa 1">
+                    <img src="image/ARISSA FARRAS (1).JPG" alt="Siswa 1">
                     <p>Arissa Farras E</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/mace.jpg" alt="Siswa 1">
+                    <img src="image/ARSISYA (1).JPG" alt="Siswa 1">
                     <p>Arsisya Fardila P</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/asmira.jpg" alt="Siswa 1">
+                    <img src="image/ASMIRA PUANDINI (1).JPG" alt="Siswa 1">
                     <p>Asmira Puandini</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/audya.jpg" alt="Siswa 1">
+                    <img src="image/AUDYA RACHMA (1).JPG" alt="Siswa 1">
                     <p>Audya Rachma R</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/aura.jpg" alt="Siswa 1">
+                    <img src="image/AURA ANNASTASYA (1).JPG" alt="Siswa 1">
                     <p>Aura Annastasya K</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/bb.jpg" alt="Siswa 1">
+                    <img src="image/BIAN QANITAH (1).JPG" alt="Siswa 1">
                     <p>Bian Qonitah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/bilqis.jpg" alt="Siswa 1">
+                    <img src="image/BILQIS (1).JPG" alt="Siswa 1">
                     <p>Bilqis Azizatushalihah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/dava.jpg" alt="Siswa 1">
+                    <img src="image/DAVA BINTANG (1).JPG" alt="Siswa 1">
                     <p>Dava Bintang A</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/destya.jpg" alt="Siswa 1">
+                    <img src="image/DESTIYA SARAH (1).JPG" alt="Siswa 1">
                     <p>Destiya Sarah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ella.jpg" alt="Siswa 1">
+                    <img src="image/ELLA NUR (1).JPG" alt="Siswa 1">
                     <p>Ella Nurhandayani</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/elsa.jpg" alt="Siswa 1">
+                    <img src="image/ELSA ARYANI (1).JPG" alt="Siswa 1">
                     <p>Elsa Aryani</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/farid.jpg" alt="Siswa 1">
-                    <p>Farid Bahar M</p>
+                    <img src="image/FARID BAHAR (1).JPG" alt="Siswa 1">
+                    <a href="https://9-g2023.github.io/Profil-Farid-Bahar-M/" target="_blank"><p>Farid Bahar M</p></a>
                 </div>
                 <div class="student-card">
-                    <img src="image/eci.jpg" alt="Siswa 1">
+                    <img src="image/GRECIA VALENTINE (1).JPG" alt="Siswa 1">
                     <p>Grecia Valentine</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/hapicoh.jpg" alt="Siswa 1">
+                    <img src="image/HAFSHOH RAIHANAH (1).JPG" alt="Siswa 1">
                     <p>Hafshoh Raihanah K</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/kent.jpg" alt="Siswa 1">
+                    <img src="image/KENT ATHURA (1).JPG" alt="Siswa 1">
                     <p>Kent Athuura S</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/kirana.jpg" alt="Siswa 1">
+                    <img src="image/KIRANA SAFITRI (1).JPG" alt="Siswa 1">
                     <p>Kirana Safitri</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/layla.jpg" alt="Siswa 1">
+                    <img src="image/LAILA PUTRI (1).JPG" alt="Siswa 1">
                     <p>Laila Putri N</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/linggo.jpg" alt="Siswa 1">
+                    <img src="image/LINGGO ADITYA (1).JPG" alt="Siswa 1">
                     <p>Linggo Aditya</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/a;fian.jpg" alt="Siswa 1">
+                    <img src="image/M ALFIAN DWI (1).JPG" alt="Siswa 1">
                     <p>Muhamad Alfian Dwi J</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/ail.jpg" alt="Siswa 1">
+                    <img src="image/MUHAMMAD NAZRIL (1).JPG" alt="Siswa 1">
                     <p>Muhammad Nazril F</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/maco.jpg" alt="Siswa 1">
+                    <img src="image/MUHAMMAD QILMAN (1).JPG" alt="Siswa 1">
                     <p>Muhamad Qilman H</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/nadia.jpg" alt="Siswa 1">
+                    <img src="image/NADIA AMANDAR (1).JPG" alt="Siswa 1">
                     <p>Nadia Amandar</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/nurul.jpg" alt="Siswa 1">
+                    <img src="image/NURUL WAHIDAH (1).JPG" alt="Siswa 1">
                     <p>Nurul Wahidah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/pariska.jpg" alt="Siswa 1">
+                    <img src="image/PARISKA ZAHRA (1).JPG" alt="Siswa 1">
                     <p>Pariska Zahra</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/rafkur.jpg" alt="Siswa 1">
+                    <img src="image/RAFA KURNIA (1).JPG" alt="Siswa 1">
                     <p>Rafa Kurnia F</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/rafok.jpg" alt="Siswa 1">
+                    <img src="image/RAFA OKTAVIAN (1).JPG" alt="Siswa 1">
                     <p>Rafa Oktavian F</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/rammy.jpg" alt="Siswa 1">
+                    <img src="image/RAMMY (1).JPG" alt="Siswa 1">
                     <p>Rammy Munira El-Esami R</p>
                 </div>
                 <div class="student-card">
@@ -394,27 +401,27 @@
                     <p>Riyadhi Akbar</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/rival.jpg" alt="Siswa 1">
+                    <img src="image/RIVAL (1).JPG" alt="Siswa 1">
                     <p>Rival Agatha R</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/sarah.jpg" alt="Siswa 1">
+                    <img src="image/SARAH NUR AZIZAH (1).JPG" alt="Siswa 1">
                     <p>Sarah Nur Azizah</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/sazkia.jpg" alt="Siswa 1">
+                    <img src="image/SAZKIA NOUREEN (1).JPG" alt="Siswa 1">
                     <p>Sazkia Noureen A</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/suci.jpg" alt="Siswa 1">
+                    <img src="image/SUCI RAMADHANI (1).JPG" alt="Siswa 1">
                     <p>Suci Ramadhani</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/syallom.jpg" alt="Siswa 1">
+                    <img src="image/SYALOM (1).JPG" alt="Siswa 1">
                     <p>Syallom Yadrastirani A D</p>
                 </div>
                 <div class="student-card">
-                    <img src="image/zahrotul.jpg" alt="Siswa 1">
+                    <img src="image/ZHROTUL AINI (1).JPG" alt="Siswa 1">
                     <p>Zahrotul Aini</p>
                 </div>
             </div>
@@ -449,17 +456,10 @@
             showImage(currentIndex + 1);
         });
 
-        // Optional: auto-slide every 3 seconds
+        // Optional: auto-slide every 8 seconds
         setInterval(() => {
             showImage(currentIndex + 1);
         }, 3000);
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
