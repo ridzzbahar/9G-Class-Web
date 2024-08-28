@@ -238,7 +238,7 @@
             <a href="https://open.spotify.com/playlist/4zBEPzrNforOcXyWAAsvZ2?si=jPCwvRYaTbGZwspDpSQAOw&nd=1&dlsi=b516cbb82901445d" target="_blank"><i class="bi bi-spotify"></i></a>
         </nav>
     </header>
-    <div class="hero" id="home>
+    <div class="hero" id="home">
         <h2>WELCOME TO 9-G CLASS</h2>
         <p>9-G CLASS Tahun Ajaran 2023-2024</p>
         <a href="#about" class="button-primary">Pelajari Lebih Lanjut</a>
